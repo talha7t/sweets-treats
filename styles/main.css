@@ -8,6 +8,10 @@ body {
   font-family: "redressed", sans-serif;
 }
 
+.section {
+  min-height: 90vh !important;
+}
+
 /* --------NAVBAR--------- */
 
 .navbar {
