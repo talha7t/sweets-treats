@@ -1,0 +1,25 @@
+.featured-products-heading {
+  color: #f358bf;
+}
+
+.card {
+  width: 25vw;
+  height: 50vh;
+}
+
+.card img {
+  height: 75%;
+}
+
+.carousel-indicators button {
+  background-color: #c4c4c4 !important;
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+  border: none !important;
+}
+
+.carousel-indicators button.active {
+  border: 1px solid #000 !important;
+  background-color: #fff !important;
+}
