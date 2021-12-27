@@ -7,11 +7,6 @@
 body {
   font-family: "redressed", sans-serif;
 }
-
-.section {
-  min-height: 90vh !important;
-}
-
 /* --------NAVBAR--------- */
 
 .navbar {
@@ -39,9 +34,3 @@ body {
   color: #fff;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-/*-------------------IPAD--------------------*/
-/* 
-.section {
-  height: auto;
-} */

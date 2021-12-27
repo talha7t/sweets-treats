@@ -1,0 +1,90 @@
+.testimonial-section {
+  background-color: #f358bf;
+  color: #fff;
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+#testimonial-carousel button {
+  background-color: white !important;
+  height: 10px !important;
+  width: 10px !important;
+  border: none !important;
+  border-radius: 50%;
+  margin-top: 5rem !important;
+}
+#testimonial-carousel button.active {
+  background-color: #f358bf !important;
+  border: 2px solid #fff !important;
+}
+
+.user-image-container {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.user-name-date {
+  font-size: 1rem;
+}
+
+.user-image-container img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-image-container {
+  width: 35vw;
+  max-height: 50vh;
+  min-height: 40vh;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.testimonial-image-container-1 {
+  background: url("/images/featured-product-1.jpg") no-repeat;
+  background-size: contain;
+}
+
+.testimonial-image-container-2 {
+  background: url("/images/featured-product-2.jpg") no-repeat;
+  background-size: contain;
+}
+
+.testimonial-image-container-3 {
+  background: url("/images/featured-product-3.jpg") no-repeat;
+  background-size: contain;
+}
+
+/*---------------Laptop VIEW-------------------*/
+@media screen and (max-width: 992px) {
+  .testimonial-image-section {
+    justify-content: center !important;
+  }
+  .testimonial-image-container {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+/*---------------IPAD VIEW-------------------*/
+@media screen and (max-width: 768px) {
+  .testimonial-image-section {
+    justify-content: center !important;
+  }
+  .testimonial-image-container {
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+/*---------------MOBILE VIEW-----------------*/

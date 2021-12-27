@@ -6,6 +6,7 @@
   background-size: contain;
   display: flex;
   align-items: center;
+  height: 90vh !important;
 }
 
 .landing-section h1 {
