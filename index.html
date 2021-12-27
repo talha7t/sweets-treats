@@ -30,7 +30,7 @@
     <header>
       <nav
         class="
-          navbar navbar-expand-lg
+          navbar navbar-expand-md
           pt-2
           pb-2
           ps-md-5 ps-3
@@ -86,25 +86,20 @@
 
     <!-------------FEATURED PRODUCTS SECTION START----------------->
 
-    <section
-      class="featured-products-section section pt-lg-5 ps-lg-5 pe-lg-5 pb-lg-5"
-    >
+    <section class="featured-products-section section pt-sm-5 ps-5 pe-5 pb-5">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="featured-products-heading">Featured Products</h2>
+        <div class="row gy-5">
+          <div class="col-sm-6 col-12 mb-3">
+            <h3 class="mb-3 featured-products-heading">Featured Products</h3>
           </div>
-          <div class="col-lg-6 d-flex justify-content-end">
-            <button>View All Products</button>
+          <div class="col-sm-6 col-12 d-none d-sm-flex flex-row-reverse mb-3">
+            <button class="btn btn-products">View All Products</button>
           </div>
-
-          <!-- carousel -->
-
-          <div class="col-lg-12">
+          <div class="col-12">
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
-              data-bs-ride="carousel"
+              data-ride="carousel"
             >
               <!-- carousel indicators -->
               <div class="carousel-indicators">
@@ -112,221 +107,289 @@
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="0"
-                  class="active ms-2 me-2"
+                  class="active ms-3 me-3"
                   aria-current="true"
                   aria-label="Slide 1"
                 ></button>
                 <button
-                  class="ms-2 me-2"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
+                  class="ms-3 me-3"
                 ></button>
                 <button
-                  class="ms-2 me-2"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
+                  class="ms-3 me-3"
                 ></button>
               </div>
 
-              <!-- carousel inner -->
+              <!-- inner carousel -->
               <div class="carousel-inner">
                 <!-- first carousel item -->
                 <div class="carousel-item active">
-                  <div class="d-flex justify-content-evenly">
-                    <!-- card-1 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                  <div class="row justify-content-center mb-sm-4 mb-2">
+                    <div
+                      class="
+                        col-lg-4
+                        d-flex
+                        justify-content-center
+                        col-md-6
+                        mb-3
+                      "
+                    >
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="image of a featured product"
+                          src="images/featured-product-1.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Special Chocolate Doughnut</h4>
+                          <p class="card-text">$5</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-2 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div
+                      class="
+                        col-lg-4 col-md-6 col-12
+                        d-flex
+                        justify-content-center
+                        mb-3
+                      "
+                    >
+                      <div class="card d-none d-md-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-2.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-md-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Creamy Cookies</h4>
+                          <p class="card-text">$10</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-3 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div class="col-md-4 d-flex justify-content-center mb-3">
+                      <div class="card d-none d-lg-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-3.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Choco Lava Cupcake</h4>
+                          <p class="card-text">$25</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <!-- second carousel item -->
                 <div class="carousel-item">
-                  <div class="d-flex justify-content-evenly">
-                    <!-- card-1 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                  <div class="row mb-4">
+                    <div
+                      class="
+                        col-lg-4 col-md-6
+                        d-flex
+                        justify-content-center
+                        mb-3
+                      "
+                    >
+                      <div class="card">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-4.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Straberry Cake</h4>
+                          <p class="card-text">$40</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-2 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div
+                      class="
+                        col-lg-4 col-md-6
+                        d-flex
+                        justify-content-center
+                        mb-3
+                      "
+                    >
+                      <div class="card d-none d-md-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-5.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Sugar Rush</h4>
+                          <p class="card-text">$75</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-3 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-1.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div class="col-md-4 d-flex justify-content-center mb-3">
+                      <div class="card d-none d-lg-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-6.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Frost Chocolate Cake</h4>
+                          <p class="card-text">$75</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <!-- third carousel item -->
                 <div class="carousel-item">
-                  <div class="d-flex justify-content-evenly">
-                    <!-- card-1 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-3.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                  <div class="row mb-4">
+                    <div
+                      class="
+                        col-lg-4 col-md-6
+                        d-flex
+                        justify-content-center
+                        mb-3
+                      "
+                    >
+                      <div class="card">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-4.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Straberry Cake</h4>
+                          <p class="card-text">$40</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-2 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-3.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div
+                      class="
+                        col-lg-4 col-md-6
+                        d-flex
+                        justify-content-center
+                        mb-3
+                      "
+                    >
+                      <div class="card d-none d-md-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-5.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Sugar Rush</h4>
+                          <p class="card-text">$75</p>
+                        </div>
                       </div>
                     </div>
-                    <!-- card-3 -->
-                    <div class="card">
-                      <img
-                        src="/images/featured-product-3.jpg"
-                        class="card-img-top"
-                        alt="an image of a featured product"
-                      />
-                      <div
-                        class="
-                          card-body
-                          d-flex
-                          flex-column
-                          justify-content-evenly
-                          align-items-center
-                        "
-                      >
-                        <p class="card-text">Chocolate caramel cupcakes</p>
-                        <span class="price">$5</span>
+                    <div class="col-md-4 d-flex justify-content-center mb-3">
+                      <div class="card d-none d-lg-block">
+                        <img
+                          class="img-fluid w-100"
+                          alt="image of a featured product"
+                          src="images/featured-product-6.jpg"
+                        />
+                        <div
+                          class="
+                            card-body
+                            d-flex
+                            flex-column
+                            justify-content-evenly
+                            align-items-center
+                            ps-3
+                            pe-3
+                          "
+                        >
+                          <h4 class="card-title">Frost Chocolate Cake</h4>
+                          <p class="card-text">$75</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -334,11 +397,20 @@
               </div>
             </div>
           </div>
+          <div class="col-12 d-sm-none mt-4 d-flex justify-content-center">
+            <button class="btn btn-products">View All Products</button>
+          </div>
         </div>
       </div>
     </section>
 
     <!--------------FEATURED PRODUCTS SECTION END------------------>
+
+    <!--------------TESTIMONIAL SECTION START---------------------->
+
+    <section class="testimonial-section section"></section>
+
+    <!--------------TESTIMONIAL SECTION END------------------------->
 
     <!----------------------MAIN CONTENT END--------------------->
 

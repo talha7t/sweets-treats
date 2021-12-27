@@ -1,14 +1,34 @@
 .featured-products-heading {
   color: #f358bf;
+  font-size: 2.25rem;
 }
 
 .card {
   width: 25vw;
   height: 50vh;
+  color: #f358bf;
 }
 
 .card img {
   height: 75%;
+}
+
+.btn-products {
+  height: 2.5rem !important;
+  text-align: center !important;
+  display: flex !important;
+  color: #f358bf;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.5rem !important;
+  padding: 0.5rem !important;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease !important;
+}
+
+.btn-products:hover {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+  color: #f74bbe;
 }
 
 .carousel-indicators button {
@@ -22,4 +42,30 @@
 .carousel-indicators button.active {
   border: 1px solid #000 !important;
   background-color: #fff !important;
+}
+
+/* -----------Laptops VIEW------------ */
+
+@media screen and (max-width: 991px) {
+  .card {
+    width: 40vw;
+    height: 50vh;
+  }
+}
+
+/* ----------------IPad VIEW-------------------- */
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 75vw;
+    height: 50vh;
+  }
+}
+
+/*--------------mobile view------------------*/
+
+@media screen and (max-width: 576px) {
+  .btn-products {
+    width: 90%;
+  }
 }
