@@ -1,0 +1,61 @@
+.contact-heading {
+  font-size: 2.5rem;
+  color: #f358bf;
+}
+
+.contact-text-section {
+  color: #f358bf;
+  font-size: 1.5rem;
+}
+
+.contact-number span,
+.contact-mail span,
+.contact-address span {
+  height: 2rem;
+  width: 2rem;
+}
+
+.contact-number span img,
+.contact-mail span img,
+.contact-address span img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-form {
+  /* min-height: 50vh; */
+  width: 35vw;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact-form input,
+.contact-form input:focus,
+.contact-form input:active,
+.contact-form textarea,
+.contact-form textarea:focus {
+  border: 1px solid #f358bf;
+  color: #f358bf;
+  border-radius: 3px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #f358bf;
+}
+
+.mail-link {
+  color: #f358bf;
+  text-decoration: none;
+  border: 1px solid #f358bf;
+}
+
+.mail-link:hover {
+  color: #f358bf;
+}
+
+/*------------------mobile screen-------------*/
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+  }
+}
