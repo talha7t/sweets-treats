@@ -33,4 +33,8 @@ body {
   background-color: #333333;
   color: #fff;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 10;
 }
