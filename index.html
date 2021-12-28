@@ -94,7 +94,16 @@
             <h3 class="mb-3 featured-products-heading">Featured Products</h3>
           </div>
           <div class="col-sm-6 col-12 d-none d-sm-flex flex-row-reverse mb-3">
-            <button class="btn btn-products">View All Products</button>
+            <button
+              type="button"
+              class="btn btn-products popover-dismiss"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="This button does nothing"
+            >
+              View all Products
+            </button>
           </div>
           <div class="col-12">
             <div
@@ -144,7 +153,7 @@
                     >
                       <div class="card">
                         <img
-                          class="img-fluid"
+                          class="img-fluid w-100"
                           alt="image of a featured product"
                           src="images/featured-product-1.jpg"
                         />
@@ -172,16 +181,16 @@
                         mb-3
                       "
                     >
-                      <div class="card d-none d-md-block">
+                      <div class="card d-none d-md-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
-                          src="images/featured-product-2.jpg"
+                          src="images/featured-product-1.jpg"
                         />
                         <div
                           class="
                             card-body
-                            d-md-flex
+                            d-flex
                             flex-column
                             justify-content-evenly
                             align-items-center
@@ -189,13 +198,13 @@
                             pe-3
                           "
                         >
-                          <h4 class="card-title">Creamy Cookies</h4>
-                          <p class="card-text">$10</p>
+                          <h4 class="card-title">Special Chocolate Doughnut</h4>
+                          <p class="card-text">$5</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mb-3">
-                      <div class="card d-none d-lg-block">
+                      <div class="card d-none d-lg-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
@@ -260,7 +269,7 @@
                         mb-3
                       "
                     >
-                      <div class="card d-none d-md-block">
+                      <div class="card d-none d-md-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
@@ -283,7 +292,7 @@
                       </div>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mb-3">
-                      <div class="card d-none d-lg-block">
+                      <div class="card d-none d-lg-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
@@ -348,7 +357,7 @@
                         mb-3
                       "
                     >
-                      <div class="card d-none d-md-block">
+                      <div class="card d-none d-md-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
@@ -371,7 +380,7 @@
                       </div>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mb-3">
-                      <div class="card d-none d-lg-block">
+                      <div class="card d-none d-lg-flex">
                         <img
                           class="img-fluid w-100"
                           alt="image of a featured product"
@@ -399,7 +408,16 @@
             </div>
           </div>
           <div class="col-12 d-sm-none mt-4 d-flex justify-content-center">
-            <button class="btn btn-products">View All Products</button>
+            <button
+              type="button"
+              class="btn btn-products popover-dismiss"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="This button does nothing"
+            >
+              View all Products
+            </button>
           </div>
         </div>
       </div>
@@ -642,5 +660,14 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      var popover = new bootstrap.Popover(
+        document.querySelector(".popover-dismiss"),
+        {
+          trigger: "focus",
+        }
+      );
+    </script>
   </body>
 </html>
