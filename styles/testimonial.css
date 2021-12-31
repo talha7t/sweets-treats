@@ -49,17 +49,17 @@
 }
 
 .testimonial-image-container-1 {
-  background: url("/images/featured-product-1.jpg") no-repeat;
+  background: url("../images/featured-product-1.jpg") no-repeat;
   background-size: contain;
 }
 
 .testimonial-image-container-2 {
-  background: url("/images/testimonial-image-2.png") no-repeat;
+  background: url("../images/testimonial-image-2.png") no-repeat;
   background-size: contain;
 }
 
 .testimonial-image-container-3 {
-  background: url("/images/testimonial-image-3.png") no-repeat;
+  background: url("../images/testimonial-image-3.png") no-repeat;
   background-size: contain;
 }
 
@@ -87,15 +87,15 @@
   }
   .testimonial-image-container-1 {
     width: 100% !important;
-    background: url("/images/testimonial-image-1-ipad.png") no-repeat;
+    background: url("../images/testimonial-image-1-ipad.png") no-repeat;
   }
   .testimonial-image-container-2 {
     width: 100% !important;
-    background: url("/images/testimonial-image-2-ipad.png") no-repeat;
+    background: url("../images/testimonial-image-2-ipad.png") no-repeat;
   }
   .testimonial-image-container-3 {
     width: 100% !important;
-    background: url("/images/testimonial-image-3-ipad.png") no-repeat;
+    background: url("../images/testimonial-image-3-ipad.png") no-repeat;
   }
 }
 
@@ -107,14 +107,14 @@
   }
   .testimonial-image-container-1 {
     width: 100% !important;
-    background: url("/images/testimonial-image-1.png") no-repeat;
+    background: url("../images/testimonial-image-1.png") no-repeat;
   }
   .testimonial-image-container-2 {
     width: 100% !important;
-    background: url("/images/testimonial-image-2.png") no-repeat;
+    background: url("../images/testimonial-image-2.png") no-repeat;
   }
   .testimonial-image-container-3 {
     width: 100% !important;
-    background: url("/images/testimonial-image-3.png") no-repeat;
+    background: url("../images/testimonial-image-3.png") no-repeat;
   }
 }
